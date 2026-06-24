@@ -91,7 +91,7 @@ Source PDF: `book.pdf`
 需要：
 
 - `pdftoppm`：把 PDF 页面渲染成图片。
-- `rapidocr` + `onnxruntime`：OCR 后端，已写入 `requirements.txt`。
+- `rapidocr` + `onnxruntime`：OCR 后端。
 
 建议先只跑前 3 页测试识别效果：
 

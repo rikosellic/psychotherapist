@@ -40,17 +40,17 @@
 
 适合查询：权力分析、个人即政治、性别角色、交叉性、赋权、关系文化治疗；社会建构、叙事治疗、焦点解决、意义重写；家庭系统、界限、三角化、结构/策略/代际/经验性家庭治疗。
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_13_多元文化取向.md
+### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_13_14_多元文化与心理治疗整合.md（第 13 章部分）
 
 覆盖第 13 章 Developing Your Multicultural Orientation and Skills。
 
 适合查询：多元文化谦逊、文化自我觉察、特权与压迫、社会正义能力、文化适配、身份交叉、跨文化个案概念化。
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_14_整合治疗.md
+### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_13_14_多元文化与心理治疗整合.md（第 14 章部分）
 
 覆盖第 14 章 Psychotherapy and Counseling Integration。
 
-适合查询：共同因素、技术折衷、理论整合、同化整合、多模式治疗、IPT、EFT、EMDR、DBT、ACT、MBCT、跨理论模型、改变阶段。
+适合查询：五种整合路径（意识形态纯粹/理论整合/共同因素/技术折衷/吸收式整合）、路径选择原则、跨理论改变阶段与过程、BASIC I.D. 七维评估、IPT 四类核心问题、第三波整合治疗（EMDR/EFT/DBT/ACT/MBCT）的整合来源与核心机制、全书各章在整合框架中的角色对照表、跨流派决策流程。
 
 ## Agent 使用建议
 

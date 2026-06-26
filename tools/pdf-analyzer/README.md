@@ -4,12 +4,10 @@
 
 支持两种路线：
 
-- `pdf-extract`：处理“可以选中文字复制”的 PDF。
-- `pdf-ocr`：处理扫描版、图片版 PDF，需要本机安装 Tesseract OCR。
+- `pdf-extract`：处理"可以选中文字复制"的 PDF。
+- `pdf-ocr`：处理扫描版、图片版 PDF，需要本机安装 `pdftoppm`。
 
 ## 安装
-
-推荐方式：
 
 Windows:
 
@@ -23,7 +21,7 @@ Linux / macOS:
 ./scripts/install.sh
 ```
 
-这些脚本会安装 Python 依赖并检查 `pdftoppm`。
+一键脚本会自动处理：安装 `uv` → `uv sync`（自动下载 Python + 安装依赖）→ 检查 `pdftoppm`（OCR 需要，缺则自动安装）。
 
 ## 使用
 
@@ -32,31 +30,39 @@ Linux / macOS:
 提取整本书为 Markdown：
 
 ```powershell
-python -m pdf_analyzer.cli "book.pdf"
+uv run pdf-extract "book.pdf"
 ```
 
 指定输出文件：
 
 ```powershell
-python -m pdf_analyzer.cli "book.pdf" -o "output/book.md"
+uv run pdf-extract "book.pdf" -o "output/book.md"
 ```
 
 只提取部分页码：
 
 ```powershell
-python -m pdf_analyzer.cli "book.pdf" --start 1 --end 30 -o "output/sample.md"
+uv run pdf-extract "book.pdf" --start 1 --end 30 -o "output/sample.md"
 ```
 
 输出纯文本：
 
 ```powershell
-python -m pdf_analyzer.cli "book.pdf" --format text -o "output/book.txt"
+uv run pdf-extract "book.pdf" --format text -o "output/book.txt"
 ```
 
 保留 PDF 原始换行：
 
 ```powershell
-python -m pdf_analyzer.cli "book.pdf" --preserve-line-breaks
+uv run pdf-extract "book.pdf" --preserve-line-breaks
+```
+
+或者先激活虚拟环境再运行：
+
+```powershell
+# 激活 .venv 后直接使用命令
+pdf-extract "book.pdf"
+pdf-ocr "scanned-book.pdf"
 ```
 
 ## 输出格式
@@ -91,30 +97,30 @@ Source PDF: `book.pdf`
 需要：
 
 - `pdftoppm`：把 PDF 页面渲染成图片。
-- `rapidocr` + `onnxruntime`：OCR 后端。
+- `rapidocr` + `onnxruntime`：OCR 后端（由 `uv sync` 自动安装）。
 
 建议先只跑前 3 页测试识别效果：
 
 ```powershell
-python -m pdf_analyzer.ocr_cli "scanned-book.pdf" --start 1 --end 3 -o "output/ocr-sample.md"
+uv run pdf-ocr "scanned-book.pdf" --start 1 --end 3 -o "output/ocr-sample.md"
 ```
 
 识别整本扫描书：
 
 ```powershell
-python -m pdf_analyzer.ocr_cli "scanned-book.pdf" -o "output/scanned-book.md"
+uv run pdf-ocr "scanned-book.pdf" -o "output/scanned-book.md"
 ```
 
 指定 RapidOCR 置信度阈值，过滤低置信度碎片：
 
 ```powershell
-python -m pdf_analyzer.ocr_cli "scanned-book.pdf" --rapid-score-thresh 0.5 -o "output/scanned-book.md"
+uv run pdf-ocr "scanned-book.pdf" --rapid-score-thresh 0.5 -o "output/scanned-book.md"
 ```
 
 若 `pdftoppm` 不在 PATH，可指定完整路径：
 
 ```powershell
-python -m pdf_analyzer.ocr_cli "scanned-book.pdf" --pdftoppm "C:\Program Files\poppler\bin\pdftoppm.exe" -o "output/scanned-book.md"
+uv run pdf-ocr "scanned-book.pdf" --pdftoppm "C:\Program Files\poppler\bin\pdftoppm.exe" -o "output/scanned-book.md"
 ```
 
 OCR 参数建议：

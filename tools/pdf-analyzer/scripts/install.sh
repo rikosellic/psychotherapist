@@ -5,20 +5,31 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$REPO_ROOT"
 
-if command -v python >/dev/null 2>&1; then
-  PYTHON_CMD=python
-elif command -v python3 >/dev/null 2>&1; then
-  PYTHON_CMD=python3
+# ---- 1. 安装 / 检查 uv ----
+if ! command -v uv >/dev/null 2>&1; then
+  echo "正在安装 uv（Python 包管理器）..."
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  # 刷新 PATH
+  export PATH="$HOME/.local/bin:$PATH"
+  if ! command -v uv >/dev/null 2>&1; then
+    echo "uv 安装失败，请手动安装：curl -LsSf https://astral.sh/uv/install.sh | sh" >&2
+    exit 1
+  fi
+  echo "uv 安装完成: $(command -v uv)"
 else
-  echo "未找到 python，可执行文件。请先安装 Python 并确保 python 或 python3 在 PATH 中。" >&2
-  exit 1
+  echo "uv 已安装: $(command -v uv)"
 fi
 
-echo "安装 Python 依赖..."
-"$PYTHON_CMD" -m pip install -r requirements.txt
-"$PYTHON_CMD" -m pip install -e .
+# ---- 2. uv self update（可选） ----
+echo "检查 uv 更新..."
+uv self update 2>/dev/null || true
+
+# ---- 3. 用 uv 安装 Python 和项目依赖 ----
+echo "安装 Python 依赖（uv sync）..."
+uv sync
 echo "Python 依赖安装完成。"
 
+# ---- 4. 检查 pdftoppm ----
 echo "检查 pdftoppm..."
 if command -v pdftoppm >/dev/null 2>&1; then
   echo "pdftoppm 已安装: $(command -v pdftoppm)"

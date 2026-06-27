@@ -303,7 +303,7 @@
 - 情绪功能教育（psychoeducation about emotion function）。
 - 暴露和情绪耐受（exposure and emotional tolerance）。
 - 减少情绪回避（reduce emotion avoidance）。
-- 技能训练：放松、正念、问题解决、相反行动（opposite action）。
+- 技能训练：放松、正念、问题解决、相反行为（opposite action）。
 - 帮助来访者区分情绪、事实和行动冲动（distinguishing emotion, fact, and action urge）。
 - 使用监测表追踪情绪、触发因素、想法、行为和后果。
 

@@ -14,7 +14,7 @@ description: 将心理学书籍的 PDF 或 OCR Markdown 提取为结构化 Markd
 - **可复制文字 PDF**：使用 `pdf-extract` 路线，输出 Markdown。
 - **扫描版/图片版 PDF**：使用 `pdf-ocr` 路线，输出 OCR Markdown。
 
-提取后的文件通常位于 `output/markdown/` 或 `output/ocr-markdown/` 目录下。
+> 建议优先使用绝对路径执行 `pdf-analyzer`，以避免不同工作目录下相对路径解析出错。输入 PDF 和输出 Markdown 都尽量写成完整路径。
 
 ## 输入与输出
 

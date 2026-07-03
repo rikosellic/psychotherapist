@@ -4,7 +4,7 @@
 原书：Deborah L. Cabaniss, Sabrina Cherry, Carolyn J. Douglas & Anna R. Schwartz, *Psychodynamic Psychotherapy: A Clinical Manual*, Second Edition (2017). 
 用途：供 agent 使用中文快速查询心理动力学治疗的操作框架——从评估到结束的全过程技术。提取内容为结构化笔记，保留关键英文术语，便于 agent 在个案概念化和干预方案生成时直接调用。
 
-原书共 31 章，分为 7 个部分。提取后按内容密度和主题关联拆分为 8 个结构化文件。每个文件均包含"章节主线"帮助快速定位核心论点，以及"Agent 使用建议"说明适用场景。
+原书共 31 章 + 3 个附录，分为 7 个部分。提取后按内容密度和主题关联拆分为 9 个结构化文件。每个文件均包含"章节主线"帮助快速定位核心论点，以及"Agent 使用建议"说明适用场景。
 
 ---
 
@@ -114,6 +114,18 @@
 - 持续学习的框架（督导、患者、自我反思）
 - Microprocess Moment 和 Macroprocess Summary 分析方法
 
+### 英文版-心理动力学疗法Psychodynamic Psychotherapy A clinical manual_附录1_3_教育者指南与评估工具.md
+
+覆盖附录 1-3：**How to Use This Manual: A Guide for Educators, Microprocess Moment Assessment Template, PEPPER**——Y 模型教学体系与三级学习者课程设计、Microprocess Moment 评估维度表、面向患者的心理教育材料（PEPPER）及常见问题解答。
+
+**适合查询**：
+- Y 模型（stem + branches）与三级课程设计（初/中/高级学习目标、研讨会、评估方法）
+- 五大教学原则（翻转课堂、技术+概念化同步、操作化评估等）
+- Microprocess Moment / Video Review 评估模板（听/反思/干预三维度）
+- PEPPER 患者心理教育核心内容与 FAQs
+- 如何向来访者解释心理动力学治疗（通俗语言版）
+- 督导协同（Course and Lab）模式
+
 ---
 
 ## 综合使用说明
@@ -123,6 +135,8 @@
 - **核心操作** → 使用 `_16_18_听反思与干预技术树.md` 的听/反思/干预框架作为日常技术选择的基础，结合 `_19_24_核心治疗技术.md` 的六大技术主题（含新增的情结 complexes 概念）。
 - **实现目标** → 使用 `_25_28.md` 将技术应用于特定的治疗目标（改善自我感知与自尊调节、改善人际关系、改善压力适应、改善认知功能）。
 - **结束治疗** → 使用 `_29_31.md` 管理修通和结束过程。可结合 Microprocess Moment 和 Macroprocess Summary 进行总结分析。
+- **教学与评估** → 使用 `_附录1_3.md` 设计培训课程、督导评估（含 Microprocess Moment / Macroprocess Summary）、或为患者提供心理教育材料（PEPPER）。
+- **患者教育** → 使用 `_附录1_3.md` 中的 PEPPER FAQs，在知情同意阶段向患者解释治疗原理。
 
 ### Agent 使用建议
 

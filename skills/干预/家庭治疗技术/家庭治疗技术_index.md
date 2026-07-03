@@ -6,7 +6,7 @@
 
 ## 文件导览
 
-### 家庭治疗技术_01_新手与未来.md
+### 家庭治疗技术_01_13_新手与未来.md
 
 覆盖第 1 章与第 13 章：**新手家庭治疗师（The Beginning Family Therapist）** 与 **未来的家庭治疗（The Future of Family Therapy）**。
 

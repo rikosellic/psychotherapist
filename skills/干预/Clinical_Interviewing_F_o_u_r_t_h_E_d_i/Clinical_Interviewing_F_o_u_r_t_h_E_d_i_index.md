@@ -10,7 +10,7 @@
 
 覆盖 Part One：Becoming a Mental Health Professional。第 1 章 Introduction: Philosophy and Organization；第 2 章 Foundations and Preparations。
 
-适合查询：临床访谈定义、理论取向对比、非指导性倾听的六个优势、访谈者基本要求、自我觉察（身体/心理社会/发展/文化）、物理环境、专业呈现、时间边界、保密及其限制、知情同意、SOAP 文档记录、来访者动机分类、压力管理。
+适合查询：临床访谈定义、理论取向对比、非指导性倾听的六个优势、访谈者基本要求、自我觉察（身体/心理社会/发展/文化，含客观自我觉察）、物理环境、专业呈现（着装与资质介绍）、时间边界、保密及其限制、知情同意、SOAP 文档记录、来访者动机分类、专业边界练习、压力管理。
 
 ### `Clinical_Interviewing_F_o_u_r_t_h_E_d_i_03_05_倾听与关系发展.md`
 
@@ -18,17 +18,11 @@
 
 适合查询：贯注行为、非指导性倾听（沉默/释义/情感反映/总结/澄清）、安慰的拉力、指导性倾听回应、问题类型（开放式/封闭式/过程/解决焦点）、提问注意事项、指令性行动反应、自我披露、Rogers 核心条件（共情/无条件积极关注/真实一致）、精神分析与人际关系概念、行为/女性主义/解决焦点关系概念。
 
-覆盖 Part Two：Listening and Relationship Development。
-
-第 3 章 Basic Attending, Listening, and Action Skills；第 4 章 Directives: Questions and Action Skills；第 5 章 Theoretically-Supported and Evidence-Based Relationships。
-
-适合查询：贯注行为、非指导性倾听（沉默/释义/情感反映/总结/澄清）、安慰的拉力、指导性倾听回应、问题类型（开放式/封闭式/过程/解决焦点）、提问注意事项、指令性行动反应、自我披露、Rogers 核心条件（共情/无条件积极关注/真实一致）、精神分析与人际关系概念、行为/女性主义/解决焦点关系概念。
-
 ### `Clinical_Interviewing_F_o_u_r_t_h_E_d_i_06_08_访谈结构与评估流程.md`
 
 覆盖第 6 至第 8 章：An Overview of the Interview Process；Intake Interviewing and Report Writing；The Mental Status Examination。
 
-适合查询：访谈六阶段框架（介绍/开场/主体/干预/结束/终止）、初始访谈目标与内容领域、摄入报告（Intake Report）结构、精神状态检查（MSE）十个维度（外观/行为/言语/情绪情感/思维过程/思维内容/知觉/认知/洞察/判断）、MSE 写作示例、询问异常体验的非污名化方式。
+适合查询：访谈六阶段框架（介绍/开场/主体/干预/结束/终止）、初始访谈目标与内容领域、问题探索核心问题、"为什么现在来"（Why Now?）问题、摄入报告（Intake Report）结构、精神状态检查（MSE）十个维度（外观/行为/言语/情绪情感/思维过程/思维内容/知觉/认知/洞察/判断）、MSE 写作示例、询问异常体验的非污名化方式。
 
 ### `Clinical_Interviewing_F_o_u_r_t_h_E_d_i_09_10_自杀评估诊断治疗计划.md`
 
@@ -40,7 +34,7 @@
 
 覆盖第 11 至第 13 章：Challenging Clients and Demanding Situations；Interviewing Young Clients；Principles and Tips for Interviewing Couples and Families。
 
-适合查询：沉默、敌意、抗拒、过度健谈、哭泣、边界挑战的应对策略；灾难创伤情境的心理急救；暴力风险评估；儿童青少年访谈的发展适应性技巧（语言、游戏、保密、安全评估）；伴侣家庭访谈的悖论、互动循环问题、多方联盟管理、家庭暴力注意事项。
+适合查询：沉默、敌意、抗拒、过度健谈、哭泣、边界挑战的应对策略；管理抗拒清单；CAGE 物质使用筛查与动机性访谈（MI）10 内容领域；灾难创伤情境的心理急救；暴力风险评估；儿童青少年访谈的发展适应性技巧（语言、游戏、保密、安全评估）；伴侣家庭访谈的悖论、互动循环问题、多方联盟管理、家庭暴力注意事项。
 
 ### Clinical_Interviewing_F_o_u_r_t_h_E_d_i_14_多元文化访谈.md
 

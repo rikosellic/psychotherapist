@@ -250,7 +250,7 @@
 - 治疗师可以感到某些深层意义，但不急着挖出太远离意识的内容。
 - 回应既要连接来访者已经知道的东西，也要轻轻触及即将成形但尚未清楚的体验。
 
-**动机式访谈作为个人中心二代形式（Motivational Interviewing, MI）**
+**动机式面谈作为个人中心二代形式（Motivational Interviewing, MI）**
 
 - MI 处理改变中的矛盾心理（ambivalence），让改变理由从来访者口中出现，而不是由治疗师灌输。
 - MI 精神包括合作（collaboration）、接纳（acceptance）、慈悲（compassion）和唤起（evocation）。

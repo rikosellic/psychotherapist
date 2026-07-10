@@ -21,8 +21,8 @@
 
 ## 文化概念化
 
-### 文化概念化访谈（Cultural Formulation Interview, CFI）
-- 核心访谈工具，包含4个领域：
+### 文化概念化面谈（Cultural Formulation Interview, CFI）
+- 核心面谈工具，包含4个领域：
   1. 文化身份定义
   2. 疾病的文化概念化
   3. 心理社会应激源和文化特征的支持因素

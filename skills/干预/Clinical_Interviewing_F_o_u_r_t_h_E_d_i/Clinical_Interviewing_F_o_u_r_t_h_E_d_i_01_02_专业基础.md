@@ -1,4 +1,4 @@
-﻿# Clinical_Interviewing_F_o_u_r_t_h_E_d_i_01_02_专业基础
+# Clinical_Interviewing_F_o_u_r_t_h_E_d_i_01_02_专业基础
 
 来源：`book/Clinical_Interviewing_F_o_u_r_t_h_E_d_i.md`
 抽取范围：第 1-2 章，**Part One: Becoming a Mental Health Professional**。
@@ -179,7 +179,7 @@
 
 ### 笔记记录
 
-- 可做笔记，但应以客户为中心，而不是让笔记干扰面谈流程。
+- 可做笔记，但应以来访者为中心，而不是让笔记干扰面谈流程。
 - 解释笔记目的："我记一些要点，确保我没有记错。"
 - 不写来访者不应看到的内容。
 - 如来访者要求看笔记，应允许。

@@ -84,10 +84,10 @@
 
 ### 信息来源
 
-- 临床访谈（clinical interview）。
+- 临床面谈（clinical interview）。
 - 自评量表（self-report scales）。
 - 自我监测数据（self-monitoring data）。
-- 结构化诊断访谈（structured diagnostic interviews）。
+- 结构化诊断面谈（structured diagnostic interviews）。
 - 家人和家庭成员的报告。
 - 其他治疗提供者的报告。
 

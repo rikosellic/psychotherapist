@@ -91,7 +91,7 @@
 
 适合查询：
 - 跨领域症状量表（13领域）、WHODAS 2.0（6领域）
-- CFI 文化概念化访谈（4领域）
+- CFI 文化概念化面谈（4领域）
 - 人格障碍替代模型（LPFS + 5领域25特质面 + PD-TS）
 - 待研究诊断提案（NSSI / Suicidal Behavior Disorder / Internet Gaming Disorder 等）
 

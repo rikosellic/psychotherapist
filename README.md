@@ -9,10 +9,8 @@
 ```text
 psychotherapist/
 ├── AGENTS.md                 # Agent 总入口与强制规则
-├── SOUL.md                   # 默认：专业治疗师人格
-├── IDENTITY.md               # 默认：专业治疗师身份
-├── SOUL兔兔.md               # 备用：小兔机人格
-├── IDENTITY兔兔.md           # 备用：小兔机身份
+├── SOUL.md                   # Agent 人格与表达规范
+├── IDENTITY.md               # Agent 展示身份
 ├── TOOLS.md                  # PDF 工具说明
 ├── USER.md                   # 本地用户偏好模板
 ├── HEARTBEAT.md              # 禁止主动扫描个案材料
@@ -31,7 +29,7 @@ openclaw onboard --install-daemon
 openclaw gateway status
 ```
 
-## 注册专业治疗师 Agent
+## 注册 Agent
 
 克隆仓库后，将其作为独立 workspace 注册。请把示例路径替换为实际绝对路径：
 
@@ -51,21 +49,6 @@ openclaw agents list
 ```
 
 如果 Agent 已经注册，修改 workspace 文件后通常只需开始新会话；修改 `IDENTITY.md` 后可再次执行 `agents set-identity`。
-
-## 手动切换成小兔机版本
-
-当前默认启用专业治疗师版本。发布或安装小兔机版本前，手动用兔兔文件覆盖标准文件：
-
-```powershell
-Copy-Item ".\SOUL兔兔.md" ".\SOUL.md" -Force
-Copy-Item ".\IDENTITY兔兔.md" ".\IDENTITY.md" -Force
-
-openclaw agents set-identity `
-  --agent psychotherapist `
-  --from-identity
-```
-
-如果需要同时安装两个版本，应复制为两个独立 workspace，并使用不同 Agent ID，以隔离会话和记忆。
 
 ## 使用方式
 

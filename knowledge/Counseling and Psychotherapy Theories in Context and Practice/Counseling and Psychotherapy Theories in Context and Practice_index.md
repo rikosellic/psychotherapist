@@ -10,43 +10,49 @@
 
 ## 文件导览
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_01_基础总论.md
+### Counseling and Psychotherapy Theories in Context and Practice_01_心理治疗与咨询基础.md
 
 覆盖第 1 章 Psychotherapy and Counseling Essentials: An Introduction。
 
 适合查询：为什么学习理论、心理咨询与心理治疗定义、科学与证据、伦理要点、神经科学、个人理论形成、理论与技术之间的关系。
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_02_03_精神分析与阿德勒.md
+### Counseling and Psychotherapy Theories in Context and Practice_02_03_精神分析与阿德勒治疗.md
 
 覆盖第 2 至第 3 章：Psychoanalytic Approaches；Individual Psychology and Adlerian Therapy。
 
 适合查询：无意识、心理决定论、防御机制、移情、反移情、自由联想、解释、依恋/关系模式；阿德勒的自卑、优越追求、生活风格、社会兴趣、出生序、早期回忆、鼓励和再定向。
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_04_06_存在人本格式塔.md
+### Counseling and Psychotherapy Theories in Context and Practice_04_06_存在主义个人中心与格式塔治疗.md
 
 覆盖第 4 至第 6 章：Existential Theory and Therapy；Person-Centered Theory and Therapy；Gestalt Theory and Therapy。
 
 适合查询：死亡、自由、孤独、意义；Rogers 的一致性、无条件积极关注、共情、来访者中心关系；格式塔的觉察、此时此地、接触边界、未完成事件、空椅技术。
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_07_09_行为CBT现实治疗.md
+### Counseling and Psychotherapy Theories in Context and Practice_07_09_行为认知行为与现实治疗.md
 
 覆盖第 7 至第 9 章：Behavioral Theory and Therapy；Cognitive Behavioral Theory and Therapy；Choice Theory and Reality Therapy。
 
 适合查询：经典条件作用、操作条件作用、暴露、强化、行为评估；REBT/Beck CBT、自动思维、核心信念、认知重构、行为实验；选择理论、基本需要、全行为、WDEP 和现实治疗。
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_10_12_女性主义建构家庭系统.md
+### Counseling and Psychotherapy Theories in Context and Practice_10_女性主义治疗.md
 
-覆盖第 10 至第 12 章：Feminist Theory and Therapy；Constructive Theory and Therapy；Family Systems Theory and Therapy。
+覆盖第 10 章：Feminist Theory and Therapy。
 
-适合查询：权力分析、个人即政治、性别角色、交叉性、赋权、关系文化治疗；社会建构、叙事治疗、焦点解决、意义重写；家庭系统、界限、三角化、结构/策略/代际/经验性家庭治疗。
+适合查询：权力分析、个人即政治、性别角色、交叉性、赋权、关系文化治疗。
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_13_14_多元文化与心理治疗整合.md（第 13 章部分）
+### Counseling and Psychotherapy Theories in Context and Practice_11_12_建构主义与家庭系统治疗.md
+
+覆盖第 11 至第 12 章：Constructive Theory and Therapy；Family Systems Theory and Therapy。
+
+适合查询：社会建构、叙事治疗、焦点解决、意义重写；家庭系统、界限、三角化、结构/策略/代际/经验性家庭治疗。
+
+### Counseling and Psychotherapy Theories in Context and Practice_13_14_多元文化与心理治疗整合.md（第 13 章部分）
 
 覆盖第 13 章 Developing Your Multicultural Orientation and Skills。
 
 适合查询：多元文化谦逊、文化自我觉察、特权与压迫、社会正义能力、文化适配、身份交叉、跨文化个案概念化。
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_13_14_多元文化与心理治疗整合.md（第 14 章部分）
+### Counseling and Psychotherapy Theories in Context and Practice_13_14_多元文化与心理治疗整合.md（第 14 章部分）
 
 覆盖第 14 章 Psychotherapy and Counseling Integration。
 

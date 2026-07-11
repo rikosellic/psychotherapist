@@ -34,11 +34,17 @@
 
 适合查询：经典条件作用、操作条件作用、暴露、强化、行为评估；REBT/Beck CBT、自动思维、核心信念、认知重构、行为实验；选择理论、基本需要、全行为、WDEP 和现实治疗。
 
-### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_10_12_女性主义建构家庭系统.md
+### Counseling and Psychotherapy Theories in Context and Practice_10_女性主义治疗.md
 
-覆盖第 10 至第 12 章：Feminist Theory and Therapy；Constructive Theory and Therapy；Family Systems Theory and Therapy。
+覆盖第 10 章：Feminist Theory and Therapy。
 
-适合查询：权力分析、个人即政治、性别角色、交叉性、赋权、关系文化治疗；社会建构、叙事治疗、焦点解决、意义重写；家庭系统、界限、三角化、结构/策略/代际/经验性家庭治疗。
+适合查询：权力分析、个人即政治、性别角色、交叉性、赋权、关系文化治疗。
+
+### Counseling and Psychotherapy Theories in Context and Practice_11_12_建构主义与家庭系统治疗.md
+
+覆盖第 11 至第 12 章：Constructive Theory and Therapy；Family Systems Theory and Therapy。
+
+适合查询：社会建构、叙事治疗、焦点解决、意义重写；家庭系统、界限、三角化、结构/策略/代际/经验性家庭治疗。
 
 ### Counseling and Psychotherapy Theories in Context and Practice 3rd edition_13_14_多元文化与心理治疗整合.md（第 13 章部分）
 

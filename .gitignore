@@ -1,3 +1,9 @@
 tmp
 colleague-sunfu2
 books
+
+# OpenClaw runtime memory and sensitive local material
+memory/
+cases/
+client-data/
+*.session.jsonl

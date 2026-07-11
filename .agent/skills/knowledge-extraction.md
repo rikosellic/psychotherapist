@@ -1,6 +1,6 @@
 ---
 name: knowledge-extraction
-description: 将心理学书籍的 PDF 或 OCR Markdown 提取为结构化 Markdown 读书笔记，供 psychotherapist-skill 使用。本 skill 由 repo 维护者使用，用于将原始书籍加工为 skills/ 目录下的标准化笔记。
+description: 将心理学书籍的 PDF 或 OCR Markdown 提取为结构化 Markdown 读书笔记，供 psychotherapist 使用。本 skill 由 repo 维护者使用，用于将原始书籍加工为 skills/ 目录下的标准化笔记。
 ---
 
 # 知识梳理与提取（Knowledge Organization and Extraction）

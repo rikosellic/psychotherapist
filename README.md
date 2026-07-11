@@ -1,60 +1,86 @@
-# psychotherapist-skill
+# Psychotherapist OpenClaw Agent
 
-以心理咨询师或督导师的视角对来访者的治疗记录进行个案概念化并提出干预指导建议的 AI Agent Skill。
+面向心理咨询师、心理治疗师和督导工作的 OpenClaw Agent workspace。它可根据初访记录、咨询记录、治疗逐字稿、督导材料或报告草稿，辅助生成中文个案概念化、识别既有干预、分析治疗难点并规划后续干预。
 
-## 安装
+本项目是完整 Agent workspace，不再作为独立 skill 安装。
 
-### GitHub Copilot（个人 skill）
+## 目录结构
 
-将本仓库克隆到 Copilot 个人 skills 目录，**文件夹名必须与 skill name 一致**：
-
-```bash
-git clone https://github.com/rikosellic/psychotherapist-skill.git \
-  ~/.copilot/skills/psychotherapist
-```
-
-或手动复制本仓库到以下任一位置（文件夹名改为 `psychotherapist`）：
-
-| 安装位置 | 范围 |
-|----------|------|
-| `~/.copilot/skills/psychotherapist/` | 个人全局 |
-| `~/.agents/skills/psychotherapist/` | 个人全局 |
-| `~/.claude/skills/psychotherapist/` | 个人全局（Claude Code） |
-
-> **注意**：安装时文件夹名必须为 `psychotherapist`（与 SKILL.md 中的 `name` 字段一致），**不能**保留仓库原名 `psychotherapist-skill`（含 `-skill` 后缀会导致 Agent 无法发现）。
-
-### 项目级安装（团队共享）
-
-将本仓库复制到项目根目录下的对应路径：
-
-```bash
-# 任选其一
-<project>/.github/skills/psychotherapist/
-<project>/.agent/skills/psychotherapist/
-<project>/.claude/skills/psychotherapist/
-```
-
-## 使用
-
-安装后，在 Copilot/Copilot Chat 中可通过以下方式触发：
-- 直接输入 `/psychotherapist` 作为 slash command
-- 或在对话中描述需求（如"帮我分析这份初访记录，做个案概念化"），Agent 会根据 description 自动加载本 skill
-
-支持传入心理咨询记录、初访访谈、督导材料或个案报告草稿（Markdown/文本/PDF），自动生成中文个案概念化报告并提供干预指导。
-
-### 输出模式
-
-- 完整版报告（默认）
-- 简版概念化
-- 督导讨论版
-- 指定流派版（CBT / 心理动力学 / 家庭系统 / 等）
-- 干预指导版
-
-## 结构
-
-```
+```text
 psychotherapist/
-├── SKILL.md              # Skill 入口（Agent 读取的指令）
-├── skills/               # 知识库（个案概念化 / 综合理论 / 干预 / 诊断 / 模板）
-└── tools/pdf-analyzer/   # PDF 内容提取工具
+├── AGENTS.md                 # Agent 总入口与强制规则
+├── SOUL.md                   # 默认：专业治疗师人格
+├── IDENTITY.md               # 默认：专业治疗师身份
+├── SOUL兔兔.md               # 备用：小兔机人格
+├── IDENTITY兔兔.md           # 备用：小兔机身份
+├── TOOLS.md                  # PDF 工具说明
+├── USER.md                   # 本地用户偏好模板
+├── HEARTBEAT.md              # 禁止主动扫描个案材料
+├── guides/                   # 临床工作流与知识读取指南
+├── knowledge/                # 个案概念化、干预、诊断和模板知识库
+└── tools/pdf-analyzer/       # PDF 提取与 OCR 工具
 ```
+
+## 安装 OpenClaw
+
+Windows PowerShell：
+
+```powershell
+iwr -useb https://openclaw.ai/install.ps1 | iex
+openclaw onboard --install-daemon
+openclaw gateway status
+```
+
+## 注册专业治疗师 Agent
+
+克隆仓库后，将其作为独立 workspace 注册。请把示例路径替换为实际绝对路径：
+
+```powershell
+git clone https://github.com/rikosellic/psychotherapist-skill.git `
+  "$HOME\.openclaw\workspace-psychotherapist"
+
+openclaw agents add psychotherapist `
+  --workspace "$HOME\.openclaw\workspace-psychotherapist" `
+  --non-interactive
+
+openclaw agents set-identity `
+  --agent psychotherapist `
+  --from-identity
+
+openclaw agents list
+```
+
+如果 Agent 已经注册，修改 workspace 文件后通常只需开始新会话；修改 `IDENTITY.md` 后可再次执行 `agents set-identity`。
+
+## 手动切换成小兔机版本
+
+当前默认启用专业治疗师版本。发布或安装小兔机版本前，手动用兔兔文件覆盖标准文件：
+
+```powershell
+Copy-Item ".\SOUL兔兔.md" ".\SOUL.md" -Force
+Copy-Item ".\IDENTITY兔兔.md" ".\IDENTITY.md" -Force
+
+openclaw agents set-identity `
+  --agent psychotherapist `
+  --from-identity
+```
+
+如果需要同时安装两个版本，应复制为两个独立 workspace，并使用不同 Agent ID，以隔离会话和记忆。
+
+## 使用方式
+
+可向 Agent 提供心理咨询记录、初访访谈、督导材料或个案报告草稿，并指定：
+
+- 完整版报告；
+- 简版概念化；
+- 督导讨论版；
+- 指定流派版（CBT、心理动力学、家庭系统等）；
+- 干预指导版。
+
+Agent 会先读取 `guides/` 中的工作流，再按照 L1 索引、L2 章节、必要时 L3 原文的顺序使用 `knowledge/`。
+
+## 隐私与临床边界
+
+- 不要把真实来访者身份、原始咨询记录、联系方式或其他敏感资料提交到版本库。
+- 输出用于临床辅助和督导讨论，不替代持证专业人员的评估、诊断、伦理判断或危机处置。
+- 涉及急性风险时，应优先执行现实世界中的风险评估、机构流程和当地紧急支持安排。

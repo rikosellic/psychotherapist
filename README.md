@@ -32,7 +32,7 @@ openclaw gateway status
 克隆仓库后，将其作为独立 workspace 注册。请把示例路径替换为实际绝对路径：
 
 ```powershell
-git clone https://github.com/rikosellic/psychotherapist-skill.git `
+git clone https://github.com/rikosellic/psychotherapist.git `
   "$HOME\.openclaw\workspace-psychotherapist"
 
 openclaw agents add psychotherapist `
